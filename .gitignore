@@ -1,0 +1,50 @@
+# Python
+vae_with_kl_annealing/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+reviews.csv
+recipes.csv
+cleaned_reviews.csv
+cleaned_recipes.csv
+input_data/
+*.csv
+*.npy
+*.npz
+
+# Models / checkpoints
+vae_with_kl_annealing/output_checkpoints/
+*.pt
+*.h5
+
+# Loss
+vae_with_kl_annealing/output_loss/
+*.csv
+
+# outputs
+vae_with_kl_annealing/output_indices/
+*.npy
+
+
+# outputs
+vae_with_kl_annealing/output_embeds/
+*.npy
+
+
+# outputs
+vae_with_kl_annealing/output_analysis/
+*.pkl
