@@ -4,7 +4,7 @@ This project builds a **Recipe Recommender System** using a **Variational Autoen
 It leverages **PyTorch**, **Numpy**, and **Pandas**, and uses a large-scale dataset of user reviews to provide personalized recipe recommendations.
 
 For a detailed explanation of the methodology, workflow, and insights, check out the accompanying blog post:  
-📖 [Read the full blog post here]([https://your-blog-link.com](https://f-bafti.github.io/2025/11/11/Building-a-Recipe-Recommender-System-with-VAE.html))
+📖 [Read the full blog post here] ([https://f-bafti.github.io/2025/11/11/Building-a-Recipe-Recommender-System-with-VAE.html](Building a Recipe Recommender System with VAE))
 
 ---
 
