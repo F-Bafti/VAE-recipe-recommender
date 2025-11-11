@@ -1,11 +1,4 @@
-# Python
-vae_with_kl_annealing/
-*.pyc
-*.pyo
-*.pyd
-*.env
-*.venv
-
+# Python cache and environment
 __pycache__/
 *.pyc
 *.pyo
@@ -16,11 +9,7 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
-reviews.csv
-recipes.csv
-cleaned_reviews.csv
-cleaned_recipes.csv
+# Data files (big files)
 input_data/
 *.csv
 *.npy
@@ -31,20 +20,15 @@ vae_with_kl_annealing/output_checkpoints/
 *.pt
 *.h5
 
-# Loss
+# Loss outputs
 vae_with_kl_annealing/output_loss/
 *.csv
 
-# outputs
+# Indices / embeddings / analysis outputs
 vae_with_kl_annealing/output_indices/
-*.npy
-
-
-# outputs
 vae_with_kl_annealing/output_embeds/
-*.npy
-
-
-# outputs
 vae_with_kl_annealing/output_analysis/
 *.pkl
+
+# Keep scripts inside vae_with_kl_annealing
+!vae_with_kl_annealing/*.py
