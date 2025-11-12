@@ -12,8 +12,7 @@ The model learns user and recipe embeddings through a **VAE** trained on rating 
 It then predicts missing ratings to generate personalized recipe recommendations.
 
 **Dataset summary:**
-- **522,517 recipes**
-- **271,907 users**
+Data was downloaded from Kaggle and originally is from food.com. The recipes dataset contains 522,517 recipes from 312 different categories. This dataset provides information about each recipe like cooking times, servings, ingredients, nutrition, instructions, and more.
 
 ---
 
